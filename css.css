@@ -1,6 +1,6 @@
 body {
-  background-color: lightblue;
-  font-family: "Poppins", sans-serif;
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
 }
 /* img{
     border: 2px solid orange;
@@ -9,16 +9,20 @@ div.tile {
     border: 3px solid green;
 } */
 h1 {
-  color: red;
+    color: red
 }
 h2 {
-  color: brown;
+    color:brown
 }
 
+.navbar > a {
+    color: greenyellow;
+    text-decoration: none;
+}
 .navbar > a:hover {
-  color: red;
+    color: red;
 }
 #cake1.img {
-  width: 500px;
-  border: 3px solid blue;
+    width: 500px;
+    border: 3px solid blue;
 }
