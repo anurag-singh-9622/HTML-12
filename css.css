@@ -20,7 +20,7 @@ h2 {
     text-decoration: none;
 }
 .navbar > a:hover {
-    color: red;
+    color: yellow;
 }
 #cake1.img {
     width: 500px;
