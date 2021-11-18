@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    border: 3px blue;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.inner{
+    border: 1px solid red;
+    width: 80%;
+    padding: 1em;
+    box-sizing: border-box;
+}
