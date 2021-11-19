@@ -15,12 +15,9 @@ h2 {
     color:brown
 }
 
-.navbar >a {
-    color: greenyellow;
-    text-decoration: none;
-}
-.navbar > a:hover {
-    color: yellow;
+
+navbar >a:hover {
+    color: red;
 }
 #cake1.img {
     width: 500px;
