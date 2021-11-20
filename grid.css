@@ -2,15 +2,33 @@ body{
     background-color: azure;
 }
 .wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  display: flex;
+  border: 1px solid red;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .tile >img {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  width: 300px;
+  padding: 1em;
+}
+.tile > img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .tile {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .tile {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+    .tile {
+    width: 25%;
+  }
 }

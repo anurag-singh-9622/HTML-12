@@ -34,20 +34,36 @@ h2 {
   color: red;
 }
 
-.tile-wrapper{
+.tile-wrapper {
     display: flex;
+    border: 1px solid red;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-.tile{
+.tile {
     width: 300px;
     padding: 1em;
- 
 }
 
 .tile > img{
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .tile {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .tile {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+    .tile {
+    width: 25%;
+  }
 }
